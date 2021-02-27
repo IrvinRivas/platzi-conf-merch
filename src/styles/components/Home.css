@@ -1,0 +1,17 @@
+.Home-pay-button{
+    align-items: center;
+    background-color: greenyellow;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px gray;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: fixed;
+    left: 1200px;
+    bottom: 550px;
+    width: 100px;
+  }
+
+  .Home-pay-button a {
+    color:white;
+  }
