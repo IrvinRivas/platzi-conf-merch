@@ -90,3 +90,10 @@ input {
     display: block;
     outline: none;
 }
+
+@media(max-width:425px){
+  .Information{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

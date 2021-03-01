@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Helmet } from 'react-helmet';
 import { PayPalButton }from 'react-paypal-button';
 import { useHistory } from 'react-router-dom';
 
@@ -52,6 +53,10 @@ const Payment = () => {
      }
 
     return(
+        <>
+        <Helmet>
+            <title>Pagar mi pedido -Platzi Conf Merch</title>
+        </Helmet>
         <div className="Payment">
             <div className="Payment-content">
                 <h3>Resumen del pedido</h3>
@@ -76,6 +81,7 @@ const Payment = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

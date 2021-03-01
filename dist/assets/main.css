@@ -228,6 +228,13 @@ input {
     display: block;
     outline: none;
 }
+
+@media(max-width:425px){
+  .Information{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .Payment {
   grid-template-columns: 3fr 1fr;
   grid-gap: 2rem;

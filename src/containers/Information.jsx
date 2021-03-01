@@ -1,4 +1,5 @@
 import React, { useRef, useContext } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link, useHistory } from 'react-router-dom';
 import '../styles/components/Information.css'
 import AppContext from '../context/AppContext';
@@ -29,6 +30,10 @@ const Information = () => {
     }
 
     return(
+        <>
+        <Helmet>
+            <title>Informacion de compra -Platzi Conf Merch</title>
+        </Helmet>
         <div className="Information">
             <div className="Information-content">
                 <div className="information-head">
@@ -69,6 +74,7 @@ const Information = () => {
                 
             </div>
         </div>
+        </>
     )
 }
 
