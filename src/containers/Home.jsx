@@ -6,7 +6,6 @@ import Products from '../components/Products';
 import '../styles/components/Home.css'
 
 const Home = () => {
-
     return(
         <>
         <Helmet>
