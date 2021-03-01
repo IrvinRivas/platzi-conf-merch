@@ -47,3 +47,13 @@
 .Products-item button:hover {
   background-color: rgba(39,44,49,0.06);
 }
+
+
+@media(max-width: 425px){
+  .Products-items{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+}

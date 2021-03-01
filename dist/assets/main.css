@@ -48,6 +48,16 @@
 .Products-item button:hover {
   background-color: rgba(39,44,49,0.06);
 }
+
+
+@media(max-width: 425px){
+  .Products-items{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
 .Home-pay-button{
     align-items: center;
     background-color: greenyellow;
@@ -253,6 +263,15 @@ input {
   margin: 0;
 }
 
+@media(max-width: 425px){
+  .Payment{
+    margin:0 auto;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 .Success {
   margin: 0 0 4em 0;
 }

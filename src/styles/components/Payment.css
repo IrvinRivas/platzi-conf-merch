@@ -32,3 +32,13 @@
 .Payment-element h4 {
   margin: 0;
 }
+
+@media(max-width: 425px){
+  .Payment{
+    margin:0 auto;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
